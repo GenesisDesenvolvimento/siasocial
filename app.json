@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "siasocial",
+    "slug": "siasocial",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.genesisdevelopmentandmarketing.siasocial"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff",
+        "permissions": [
+          "INTERNET"
+        ]
+      },
+      "package": "com.genesisdevelopmentandmarketing.siasocial"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ecd07a0-de15-4c4c-9618-d730de887d9c"
+      }
+    }
+  }
+}
